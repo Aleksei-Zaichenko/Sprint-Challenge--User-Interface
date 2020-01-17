@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+.logoAndList{
+    margin-top: 2%;
+    display: flex;
+    flex-flow: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+}
+
+.logoAndList nav {
+    width: 80%;
+}
+
+.logoAndList nav a{
+    padding: 0 5.7%;
+}
+
+.RoadLights{
+    margin-bottom: 2.5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +125,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes .box1 {
+    background:teal;
+}
+
+.boxes .box2 {
+    background:gold;
+}
+
+.boxes .box3 {
+    background:cadetblue;
+}
+
+.boxes .box4 {
+    background:coral;
+}
+
+.boxes .box5 {
+    background:crimson;
+}
+
+.boxes .box6 {
+    background:forestgreen;
+}
+
+.boxes .box7 {
+    background:darkorchid;
+}
+
+.boxes .box8 {
+    background:hotpink;
+}
+
+.boxes .box9 {
+    background:indigo;
+}
+
+.boxes .box10 {
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +203,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/**************Code sections for about.html*****************/
+
+.manhattan{
+    margin-bottom: 2.5%;
+}
+
+.middleSection{
+    border-top: 1.5px dotted black;
+    margin: 3% 0;
+	display:flex;
+    justify-content: space-between;
+}
+
+.middleSection div{
+	display:flex;
+    flex-flow: column;
+    
+    width:97%;
+    padding: 1%;
+}
+
+.middleSection div h2{
+    margin-top: 4%;
+}
+
+.middleSection div div{
+    margin-top: 4%;
+    border-bottom: 1.5px dotted black;
+    
+    margin-bottom: 7%;
+}
+
+button {
+    background-color: white;
+    margin-top: 6%;
+    width: 36%;
+    border-radius: 8px;
+    border: 1.5px solid black;
+    padding: 3% 0;
+    margin-bottom: 6%;
+}
+#footerAboutPage{
+    margin-top: 6%;
 }
